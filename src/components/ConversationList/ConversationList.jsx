@@ -7,10 +7,16 @@ export default function  ConversationList()  {
       { id: 3, name: 'John Doe', lastMessage: 'Hello there!' },
       { id: 4, name: 'Jane Smith', lastMessage: 'How are you?' },
       { id: 5, name: 'Mike Johnson', lastMessage: 'Did you watch the game?' },
+      { id: 3, name: 'John Doe', lastMessage: 'Hello there!' },
+      { id: 4, name: 'Jane Smith', lastMessage: 'How are you?' },
+      { id: 5, name: 'Mike Johnson', lastMessage: 'Did you watch the game?' },
+      { id: 3, name: 'John Doe', lastMessage: 'Hello there!' },
+      { id: 4, name: 'Jane Smith', lastMessage: 'How are you?' },
+      { id: 5, name: 'Mike Johnson', lastMessage: 'Did you watch the game?' },
     ];
   
     return (
-        <div className="flex flex-col h-screen bg-gray-100 w-64 overflow-y-scroll">
+        <div className="flex flex-col  bg-gray-100 w-64 h-96 overflow-y-scroll ">
           <div className="p-4 bg-white border-b border-gray-300">
             <h2 className="text-lg font-bold">Conversations</h2>
           </div>

@@ -13,7 +13,7 @@ export default function ContactDetails()  {
     return (
       <div className="bg-white p-4">
         <div className="flex items-center mb-4">
-          <div className="rounded-full h-12 w-12 bg-gray-300 mr-4"></div>
+          <div className="rounded-full h-12 w-12 bg-gray-300 mr-4 "></div>
           <div>
             <h3 className="text-lg font-semibold">{contact.name}</h3>
             <p className="text-gray-500">{contact.phoneNumber}</p>
@@ -22,7 +22,7 @@ export default function ContactDetails()  {
         </div>
         <div className="flex">
           <div className="flex-1">
-            <div className="bg-gray-100 p-4">
+            <div className="bg-gray-100 p-4 ">
               <ConversationList />
             </div>
           </div>

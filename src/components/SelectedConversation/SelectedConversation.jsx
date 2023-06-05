@@ -10,7 +10,7 @@ export default function  SelectedConversation()  {
     ];
   
     return (
-      <div className="bg-white flex-1 overflow-y-scroll">
+      <div className="bg-white flex-1 overflow-y-scroll ">
         <div className=" p-4 flex items-center">
           <div className="rounded-full h-12 w-12 bg-gray-300 mr-4"></div>
           <div>
@@ -18,7 +18,7 @@ export default function  SelectedConversation()  {
             <p className="text-green-500">Online</p>
           </div>
         </div>
-        <div className="px-4 py-2 m-5 space-x-10">
+        <div className="px-1 py-2 m-10 ">
           {messages.map((message) => (
             <div key={message.id} className={`mb-20 ${message.sender === 'You' ? 'text-right ' : ''}`}>
               <div className={` rounded-lg p-4 ${message.sender === 'You' ? 'ml-auto bg-blue-500 text-white' : 'bg-gray-100'}`}>

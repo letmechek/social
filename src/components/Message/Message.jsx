@@ -8,16 +8,16 @@ import MessageInput from '../MessageInput/MessageInput';
 
 export default function Message()  {
     return (
-      <div className='bg-red-200 '>
-      <div className="">
+      <div className='bg-gradient-to-b from-blue-500 to-red-300'>
+      <div className="p-20">
         {/* <Toolbar /> */}
         <div className="container mx-auto px-4 py-4">
-          <div className="flex">
-            <div className="w-1/4">
+          <div className="flex ">
+            <div className="w-2/4 ">
               <ContactDetails />
             </div>
-            <div className="w-3/4">
-              <div className="bg-white flex flex-col h-screen">
+            <div className="w-3/4 pb-20">
+              <div className="bg-white flex flex-col">
                 <SelectedConversation />
                 <MessageInput />
               </div>
