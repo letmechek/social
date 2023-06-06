@@ -23,7 +23,7 @@ export default function ContactDetails()  {
     ];
   
     return (
-      <div className="p-4 bg-gray-100 bg-opacity-30  overflow-y-scroll h-3/4" >
+      <div className="p-4 bg-gray-100 bg-opacity-30  overflow-y-scroll " style={{height:'77.3%'}} >
         <div className="flex items-center mb-4">
           <div className="rounded-full h-12 w-12 bg-gray-300 mr-4"></div>
           <div>
