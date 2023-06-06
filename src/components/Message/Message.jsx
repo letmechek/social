@@ -8,7 +8,7 @@ import MessageInput from '../MessageInput/MessageInput';
 
 export default function Message()  {
     return (
-      <div className='bg-gradient-to-b from-blue-500 to-red-300' style={{maxWidth:'100'}}>
+      <div className='bg-gradient-to-b from-blue-500 to-red-300' >
       <div className="p-20">
         {/* <Toolbar /> */}
         <div className="container mx-auto px-4 py-4">
@@ -16,7 +16,7 @@ export default function Message()  {
             <div className="w-2/4 ">
               <ContactDetails />
             </div>
-            <div className="w-3/4 pb-20">
+            <div className="w-3/4 ">
               <div className="bg-white flex flex-col">
                 <SelectedConversation />
                 <MessageInput />

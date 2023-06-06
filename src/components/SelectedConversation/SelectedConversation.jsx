@@ -10,7 +10,7 @@ export default function  SelectedConversation()  {
     ];
   
     return (
-      <div className="bg-white flex-1 overflow-y-scroll ">
+      <div className="bg-white flex-1 overflow-y-scroll" >
         <div className=" p-4 flex items-center">
           <div className="rounded-full h-12 w-12 bg-gray-300 mr-4"></div>
           <div>

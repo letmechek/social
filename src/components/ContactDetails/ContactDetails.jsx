@@ -23,7 +23,7 @@ export default function ContactDetails()  {
     ];
   
     return (
-      <div className="p-4 bg-gray-100 bg-opacity-30 " style={{height:'90.3%'}}>
+      <div className="p-4 bg-gray-100 bg-opacity-30  overflow-y-scroll h-3/4" >
         <div className="flex items-center mb-4">
           <div className="rounded-full h-12 w-12 bg-gray-300 mr-4"></div>
           <div>
@@ -32,7 +32,7 @@ export default function ContactDetails()  {
             <p className="text-gray-500">{contact.email}</p>
           </div>
         </div>
-              <div className="flex flex-col w-64 h-96 overflow-y-scroll">
+              <div className=" ">
                 <div className="p-4 bg-white border-b border-blue-300">
                   <h2 className="text-lg font-bold">Conversations</h2>
                 </div>
